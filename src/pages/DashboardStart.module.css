@@ -1,0 +1,293 @@
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--w-background);
+}
+.logo {
+  position: absolute;
+  top: 28.19%;
+  left: 2.05%;
+  text-transform: uppercase;
+}
+.notificationsstyle4Icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons,
+.navbar {
+  position: absolute;
+}
+.icons {
+  height: 41.67%;
+  width: 11.71%;
+  top: 29.17%;
+  right: 1.98%;
+  bottom: 29.17%;
+  left: 86.31%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.navbar {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 72px;
+  text-align: left;
+}
+.rectangle {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: var(--color-whitesmoke-100);
+}
+.rectangle,
+.rectangle1,
+.warehouseWorkersUsingLaptop {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.warehouseWorkersUsingLaptop {
+  top: 151px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 715px;
+  object-fit: cover;
+}
+.rectangle1 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(242, 242, 242, 0.2);
+}
+.ifYouDont,
+.lookIntoYour {
+  align-self: stretch;
+  position: relative;
+}
+.ifYouDont {
+  font-size: var(--font-size-lg);
+  line-height: 135.94%;
+}
+.lookIntoYourParent {
+  position: absolute;
+  width: 61.7%;
+  top: 0;
+  right: 19.73%;
+  left: 18.57%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.background1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--w-background);
+  height: 166px;
+}
+.seeMore,
+.suppliers {
+  position: absolute;
+  left: 8.89%;
+}
+.suppliers {
+  width: 82.22%;
+  top: 14.46%;
+  display: inline-block;
+}
+.seeMore {
+  top: 73.49%;
+  font-size: var(--button-14-size);
+  line-height: 135.94%;
+}
+.content,
+.rectangle2 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.content {
+  bottom: 0;
+  height: 166px;
+}
+.rectangle2 {
+  top: 0;
+  background-color: var(--d9d9d92);
+  height: 270px;
+}
+.card1Child {
+  position: absolute;
+  top: 103px;
+  left: calc(50% - 32px);
+  border-radius: var(--br-5xs);
+  background-color: var(--w-background);
+  width: 64px;
+  height: 64px;
+}
+.card1 {
+  flex: 1;
+  position: relative;
+  height: 436px;
+}
+.card1Parent,
+.media {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 270px;
+}
+.card1Parent {
+  top: 150px;
+  height: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 112px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.dashboard,
+.dashboardContent {
+  position: absolute;
+  width: 71.81%;
+  top: 96px;
+  right: 13.68%;
+  left: 14.51%;
+  height: 586px;
+}
+.dashboard {
+  height: 88.19%;
+  width: 95.24%;
+  top: 9.27%;
+  right: 2.38%;
+  bottom: 2.55%;
+  left: 2.38%;
+  display: none;
+  font-size: var(--font-size-13xl);
+}
+.blurbgIcon {
+  position: absolute;
+  height: 92.67%;
+  width: 100%;
+  top: 7.33%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.subtext,
+.text {
+  position: absolute;
+  width: 91.54%;
+  left: 4.12%;
+  display: inline-block;
+}
+.subtext {
+  top: 61.22%;
+  color: var(--d9d9d95);
+}
+.text {
+  top: 0;
+  font-size: var(--font-size-77xl);
+}
+.errorsignIcon {
+  position: absolute;
+  height: 45.35%;
+  width: 43.38%;
+  top: 25.62%;
+  right: 28.42%;
+  bottom: 29.02%;
+  left: 28.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 134.77%;
+}
+.button,
+.button1 {
+  position: absolute;
+  height: 100%;
+  width: 43.38%;
+  top: 0;
+  right: 56.62%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--d9d9d92);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-21xl);
+}
+.button1 {
+  right: 0;
+  left: 56.62%;
+}
+.noWarehouse,
+.warebuttons {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.warebuttons {
+  height: 15.65%;
+  top: 84.35%;
+  font-size: var(--font-size-lg);
+}
+.noWarehouse {
+  height: 100%;
+  top: 0;
+}
+.warehouseNew {
+  position: absolute;
+  top: 270px;
+  left: 520px;
+  width: 461px;
+  height: 441px;
+  font-size: var(--font-size-17xl);
+}
+.dashboardStart {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  height: 982px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--d9d9d92);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,240 @@
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--w-background);
+}
+.logo {
+  position: absolute;
+  top: 28.19%;
+  left: 2.05%;
+  text-transform: uppercase;
+}
+.notificationsstyle4Icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons {
+  position: absolute;
+  height: 41.67%;
+  width: 11.71%;
+  top: 29.17%;
+  right: 1.98%;
+  bottom: 29.17%;
+  left: 86.31%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.background1,
+.blurbgIcon,
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 72px;
+}
+.background1,
+.blurbgIcon {
+  top: 72px;
+  height: 910px;
+}
+.background1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(11.9px);
+  border-radius: var(--br-4xs);
+  background-color: var(--d9d9d94);
+}
+.text {
+  position: absolute;
+  height: 54.44%;
+  width: 77.55%;
+  top: 24%;
+  left: 11.56%;
+  line-height: 134.77%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--d9d9d92);
+  box-sizing: border-box;
+}
+.button,
+.button1 {
+  position: absolute;
+  height: 13.24%;
+  width: 31.82%;
+  top: 76.47%;
+  right: 16.23%;
+  bottom: 10.29%;
+  left: 51.95%;
+  text-align: center;
+}
+.button1 {
+  right: 52.16%;
+  left: 16.02%;
+}
+.dot,
+.radio1 {
+  position: absolute;
+  border-radius: var(--br-13xl);
+}
+.radio1 {
+  top: -0.5px;
+  left: -0.5px;
+  background-color: var(--w-background);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+.dot {
+  top: 6px;
+  left: 6px;
+  background-color: var(--keatext-purple);
+  width: 12px;
+  height: 12px;
+  display: none;
+}
+.radio {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.radioSelection {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.eitherOr,
+.radioButton {
+  width: 313px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.eitherOr {
+  position: absolute;
+  height: 17.94%;
+  width: 67.75%;
+  top: 52.06%;
+  right: 16.23%;
+  bottom: 30%;
+  left: 16.02%;
+  flex-direction: column;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-noto-sans);
+}
+.inputTextLabel {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.icon,
+.typeHere {
+  position: relative;
+  flex-shrink: 0;
+}
+.typeHere {
+  width: 304px;
+  line-height: 24px;
+  display: inline-block;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  opacity: 0;
+}
+.inputField,
+.text2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.inputField {
+  border-radius: var(--br-5xs);
+  background-color: var(--w-background);
+  border: 1px solid var(--color-lightgray);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  font-size: var(--font-size-base);
+}
+.productA,
+.textInputs {
+  position: absolute;
+  width: 67.75%;
+  left: 16.02%;
+  display: flex;
+}
+.textInputs {
+  height: 24.12%;
+  top: 21.47%;
+  right: 16.23%;
+  bottom: 54.41%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-noto-sans);
+}
+.productA {
+  height: 7.65%;
+  top: 10.29%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  align-items: center;
+}
+.addStock {
+  position: absolute;
+  top: 321px;
+  left: 483px;
+  width: 462px;
+  height: 340px;
+  font-size: var(--font-size-lg);
+}
+.editStockPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--d9d9d92);
+  font-family: var(--font-roboto);
+}
